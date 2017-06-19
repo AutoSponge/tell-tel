@@ -1,0 +1,38 @@
+{
+  "name": "tell-tel",
+  "version": "1.0.0",
+  "description": "create a more screen reader friendly phone number",
+  "main": "dist/index.js",
+  "esnext": "index.js",
+  "module": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "build": "babel index.js -d dist",
+    "test": "babel-node test/tell-tel.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AutoSponge/tell-tel.git"
+  },
+  "keywords": [
+    "format",
+    "formatting",
+    "number",
+    "phone",
+    "phonenumber"
+  ],
+  "author": "Paul <pgrenier@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AutoSponge/tell-tel/issues"
+  },
+  "homepage": "https://github.com/AutoSponge/tell-tel#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.5.2",
+    "prettier-standard": "^5.1.0",
+    "tape": "^4.6.3"
+  }
+}
