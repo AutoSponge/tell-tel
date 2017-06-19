@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "create a more screen reader friendly phone number",
   "main": "dist/index.js",
-  "esnext": "index.js",
-  "module": "index.js",
   "scripts": {
     "lint": "standard",
     "build": "babel index.js -d dist",
